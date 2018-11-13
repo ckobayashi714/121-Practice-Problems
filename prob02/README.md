@@ -119,10 +119,10 @@ cd ..
 cd prob02
 ```
 
-Use the `g++` command to compile your code and the `./` command to run it. The sample code below shows how you would compile code saved in `athlete.cpp` and `main.cpp` and into the executable file `main`. Make sure you use the correct filenames required in this problem.  Take note that if you make any changes to your code, you will need to compile it first before you see changes when running it.
+Use the `g++` command to compile your code and the `./` command to run it. The sample code below shows how you would compile code saved in `teacher.cpp` and `main.cpp` and into the executable file `main`. Make sure you use the correct filenames required in this problem.  Take note that if you make any changes to your code, you will need to compile it first before you see changes when running it.
 
 ```
-g++ -std=c++17 main.cpp athlete.cpp -o main
+g++ -std=c++17 main.cpp teacher.cpp -o main
 ./main
 ```
 
