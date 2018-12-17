@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2018-12-17T15:26:57" time="0.005" name="AllTests">
+  <testsuite name="Teacher" tests="4" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="OutputFormat" status="run" time="0.005" classname="Teacher" />
+    <testcase name="DefaultConstructorTest" status="run" time="0" classname="Teacher" />
+    <testcase name="ConstructorTest" status="run" time="0" classname="Teacher" />
+    <testcase name="AccessorAndMutatorTest" status="run" time="0" classname="Teacher" />
+  </testsuite>
+</testsuites>

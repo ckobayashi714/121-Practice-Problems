@@ -21,12 +21,15 @@ int main() {
   } while (answer != 'Q');
   // Create a teacher object and provide the necessary data required by its
   // constructor.
+  teacher t1("John Smith", test, num_questions);
 
   // Create an array of 100 student pointer variables
   // Hint:
   // Step 1. Create an array of 100 integer variables? (Don't use new)
   // Step 2. If we want to create an array of student pointers, what should we
   //         use to replace int (from Step 1)?
+  student *arr[100];
+  char array[100];
 
   do {
     cout << "Please enter the student's name (Q to Quit): ";
@@ -39,12 +42,15 @@ int main() {
     for (int a = 0; a < num_questions; a++) {
       cout << "Answer " << a + 1 << ": ";
       cin >> answer;
-      test[a] = answer;
+      array[a] = answer;
     }
     // Dynamically create a student object using the user input
+    // student *ptrstudent = new student(name, answer, num_questions);
 
     // Store the pointer to the student object into the array of student
-    // pointers. Don't forget to increment num_students.
+    // pointers. Don't forget to increment num_students
+    arr[num_students] = new student(name, array, num_questions);
+    num_students++;
 
   } while (name != "Q");
   cout << endl
@@ -53,12 +59,16 @@ int main() {
   for (int a = 0; a < num_students; a++) {
     // Call the assign_grade member function of the teacher object and pass a
     // student pointer as its argument
+    t1.assign_grade(arr[a]);
 
-    string student_name, student_grade;
+    string student_name;
+    double student_grade;
     // Store the student object's name in student_name, and the student's grade
     // in student_grade. Take note that the array contains pointers to student
     // objects therefore you need to dereference it accordingly.
-    
+    student_name = arr[a]->name();
+    student_grade = arr[a]->grade();
+
     cout << setw(16) << left << student_name << fixed << setprecision(2)
          << student_grade << endl;
   }

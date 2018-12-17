@@ -1,0 +1,56 @@
+---
+MainSourceFile:  /home/student/labex12-ckobayashi714/prob02/teacher.cpp
+Diagnostics:     
+  - DiagnosticName:  google-readability-casting
+    Message:         'C-style casts are discouraged; use static_cast'
+    FileOffset:      2822
+    FilePath:        teacher.hpp
+    Replacements:    
+      - FilePath:        teacher.hpp
+        Offset:          2822
+        Length:          8
+        ReplacementText: 'static_cast<double>('
+      - FilePath:        teacher.hpp
+        Offset:          2834
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  google-readability-casting
+    Message:         'C-style casts are discouraged; use static_cast'
+    FileOffset:      2837
+    FilePath:        teacher.hpp
+    Replacements:    
+      - FilePath:        teacher.hpp
+        Offset:          2837
+        Length:          8
+        ReplacementText: 'static_cast<double>('
+      - FilePath:        teacher.hpp
+        Offset:          2859
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  google-readability-casting
+    Message:         'C-style casts are discouraged; use static_cast'
+    FileOffset:      2822
+    FilePath:        ./teacher.hpp
+    Replacements:    
+      - FilePath:        ./teacher.hpp
+        Offset:          2822
+        Length:          8
+        ReplacementText: 'static_cast<double>('
+      - FilePath:        ./teacher.hpp
+        Offset:          2834
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  google-readability-casting
+    Message:         'C-style casts are discouraged; use static_cast'
+    FileOffset:      2837
+    FilePath:        ./teacher.hpp
+    Replacements:    
+      - FilePath:        ./teacher.hpp
+        Offset:          2837
+        Length:          8
+        ReplacementText: 'static_cast<double>('
+      - FilePath:        ./teacher.hpp
+        Offset:          2859
+        Length:          0
+        ReplacementText: ')'
+...
