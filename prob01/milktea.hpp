@@ -35,3 +35,25 @@ public:
 };
 
 // Create the milktea class below...
+
+class milktea {
+private:
+  string _flavor;
+  topping *Ptrtopping;
+
+public:
+  milktea() { _flavor = "Classic"; }
+  milktea(string str, topping *ptr) {
+    _flavor = str;
+    Ptrtopping = ptr;
+  }
+  string flavor() { return _flavor; }
+  topping source_topping() { return (*Ptrtopping); }
+  void set_flavor(string flavor) { _flavor = flavor; }
+  void set_source_topping(topping *ptr) { Ptrtopping = ptr; }
+  void print_milktea() {
+    cout << "Flavor: " << flavor() << " Milk Tea\n";
+    Ptrtopping->print_topping();
+    // (*Ptrtopping).print_topping();
+  }
+};

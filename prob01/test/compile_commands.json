@@ -1,0 +1,12 @@
+[
+ {
+ "directory" : "/home/student/labex12-ckobayashi714/prob01",
+ "command" : "g++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex12-ckobayashi714/prob01/main.cpp"
+ },
+ {
+ "directory" : "/home/student/labex12-ckobayashi714/prob01",
+ "command" : "g++ -std=c++17 milktea.hpp -o main",
+ "file" : "/home/student/labex12-ckobayashi714/prob01/milktea.hpp"
+ },
+]
