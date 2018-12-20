@@ -1,0 +1,62 @@
+---
+MainSourceFile:  /home/student/labex12-ckobayashi714/prob03/player_log.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         expected a type
+    FileOffset:      1344
+    FilePath:        player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         expected a type
+    FileOffset:      1450
+    FilePath:        player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'member reference type ''player'' is not a pointer; did you mean to use ''.''?'
+    FileOffset:      1789
+    FilePath:        player_log.hpp
+    Replacements:    
+      - FilePath:        player_log.hpp
+        Offset:          1789
+        Length:          2
+        ReplacementText: .
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'cannot delete expression of type ''player'''
+    FileOffset:      2009
+    FilePath:        player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'no viable overloaded ''='''
+    FileOffset:      2071
+    FilePath:        player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         expected a type
+    FileOffset:      1344
+    FilePath:        ./player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         expected a type
+    FileOffset:      1450
+    FilePath:        ./player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'member reference type ''player'' is not a pointer; did you mean to use ''.''?'
+    FileOffset:      1789
+    FilePath:        ./player_log.hpp
+    Replacements:    
+      - FilePath:        ./player_log.hpp
+        Offset:          1789
+        Length:          2
+        ReplacementText: .
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'cannot delete expression of type ''player'''
+    FileOffset:      2009
+    FilePath:        ./player_log.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'no viable overloaded ''='''
+    FileOffset:      2071
+    FilePath:        ./player_log.hpp
+    Replacements:    
+...

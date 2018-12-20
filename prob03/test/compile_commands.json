@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/labex12-ckobayashi714/prob03",
+ "command" : "g++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex12-ckobayashi714/prob03/main.cpp"
+ },
+ {
+ "directory" : "/home/student/labex12-ckobayashi714/prob03",
+ "command" : "g++ -std=c++17 player_log.cpp -o main",
+ "file" : "/home/student/labex12-ckobayashi714/prob03/player_log.cpp"
+ },
+ {
+ "directory" : "/home/student/labex12-ckobayashi714/prob03",
+ "command" : "g++ -std=c++17 player_log.hpp -o main",
+ "file" : "/home/student/labex12-ckobayashi714/prob03/player_log.hpp"
+ },
+]
